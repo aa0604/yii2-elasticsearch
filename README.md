@@ -21,10 +21,7 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 Requirements
 ------------
 
-Depending on the version of Elasticsearch you are using you need a different version of this extension.
-
-- For Elasticsearch 1.6.0 to 1.7.6 use extension version 2.0.x
-- For Elasticsearch 5.x or above use extension version 2.1.x
+support elastic5.x ~ 8.x
 
 Installation
 ------------
@@ -51,7 +48,7 @@ return [
                 ['http_address' => '127.0.0.1:9200'],
                 // configure more hosts if you have a cluster
             ],
-            'dslVersion' => 7, // default is 5
+            'dslVersion' => 8, // default is 5
         ],
     ]
 ];
